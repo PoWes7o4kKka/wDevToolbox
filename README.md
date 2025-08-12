@@ -52,4 +52,11 @@
 git clone https://github.com/PoWes7o4kKka/wDevToolbox.git
 cd wDevToolbox
 ```
-**2. Install dependencies:**
+**2. Install dependencies & Run:**
+```
+pip install -r requirements.txt
+python main.py
+```
+***
+## 📜 License
+MIT
