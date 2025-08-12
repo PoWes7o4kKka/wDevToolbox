@@ -1,0 +1,7 @@
+PyQt6
+qrcode
+Pillow
+requests
+python-dateutil
+base58
+colorama

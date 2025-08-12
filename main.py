@@ -281,8 +281,8 @@ class DevUtilityPro(QMainWindow):
         QApplication.instance().setFont(QFont("Segoe UI", 10))
 
     def setup_ui(self):
-        icon_path = os.path.join(os.path.dirname(__file__), "icon.png")
-        self.setWindowIcon(QIcon("icon.ico"))
+        icon_path = os.path.join(os.path.dirname(__file__), "assets/icons/icon.png")
+        self.setWindowIcon(QIcon("assets/icons/icon.ico"))
         self.setWindowTitle(self.tr_text("title"))
         self.setGeometry(100, 100, 1200, 860)
 
